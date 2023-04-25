@@ -1,0 +1,31 @@
+/* Created by: Lily C
+* Created on: 04/25/2023
+* This CSS file defines the style for index.html
+* Unit4-04-HTML-Museum
+*/
+
+body {
+  background-color: royalblue;
+  padding-left: 20px; padding-right: 20px;
+}
+
+h1 {
+  background-color: rgb(37 65 178);
+  color: hsl(190deg 95% 45%);
+  padding: 40px;
+  text-align: center;
+}
+
+h3 {
+  color: #03256c;
+}
+
+p {
+  background-color: #2541b2;
+  color: #fff;
+}
+
+div {
+  background-color: #2541b2;
+  color: #fff;
+}

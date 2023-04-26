@@ -26,7 +26,7 @@ function userAgeAndDaySent() {
  const STUDENT_MINIMUM = 12;
  const STUDENT_MAXIMUM = 21;
 
-// If user enters a negative number for their age, display "Please enter a vaild age."
+// If the user enters a negative number for their age, display "Please enter a vaild age."
 if (userAge < 0) {
    cost = "Please enter a valid age.";
  }
@@ -41,7 +41,7 @@ if (userAge < 0) {
    cost = "Please select a day of the week";
  }
 
-// Otherwise, if user does not enter a day of the week, display "Please enter a day of the week."
+// Otherwise, if the user does not enter a day of the week, display "Please enter a day of the week."
  else if (dayOfTheWeek == "Day of week") {
    cost = "Please enter a day of the week.";
  }
@@ -51,7 +51,7 @@ if (userAge < 0) {
    cost = "You can visit the museum for free!";
  }
 
-// Otheriwse if the user's age is between 12 and 21 and between the days Thursday and Tuesday, display "You get a student discount".
+// Otherwise if the user's age is between 12 and 21 and between the days Thursday and Tuesday, display "You get a student discount".
  else if (((userAge >= STUDENT_MINIMUM) && (userAge <= STUDENT_MAXIMUM)) || ((day == "Thursday") || (day == "Tuesday"))) {
    cost = "You're eligible for a student discount!";
  }
@@ -61,6 +61,6 @@ if (userAge < 0) {
    cost = "You're not eligible for a discount, you will have to pay the full price. Thank you for understanding.";
  }
 
- // Displaying the correct cost, onto the user's scree.
+ // Displaying the correct cost, onto the user's screen.
  document.getElementById("results").innerHTML = cost;
 }
